@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "┓ ┏┏┓┓ ┏┓┏┓┳┳┓┏┓  ┳┓┏┓┓ ┳┳┓┓"
+echo "┃┃┃┣ ┃ ┃ ┃┃┃┃┃┣   ┃┃┣┫┃ ┃┃┃┃"
+echo "┗┻┛┗┛┗┛┗┛┗┛┛ ┗┗┛  ┻┛┛┗┗┛┛ ┗┻"
+echo ""
+
 if ! command -v openssl &> /dev/null
 then
     echo "Erreur : OpenSSL n'est pas installé. Veuillez l'installer pour continuer."
